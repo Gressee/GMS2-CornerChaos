@@ -1,0 +1,22 @@
+In this game are only four dir:
+	0: right
+	1: up
+	2: left
+	3: down
+	
+
+Items:
+	If add a new item update scr_player_skill_get_item_luck and add to every return array the chance for the new item
+	If add new Item also adjust in obj_item_box collision with obj_player
+
+
+GUI: 
+	maximum for 4k displays 
+	sprites should have the size for 4k resolution
+	
+
+Networking:
+	Every buffer is as a buffer_s16 (writing with different buffer constants was buggy -> maybe optimasation later
+	server_ip_ is the same as connect_ip_ in my test and in YOYO Demo
+	reciver_ is reciver_ in my test and in YOYO Demo
+	

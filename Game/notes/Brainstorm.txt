@@ -1,0 +1,10 @@
+Skillable valuse for player:
+	Added:
+		Base speed
+		Shootcouldown
+		Recoil
+		Item luck
+		
+	Maybe:
+		Health
+		

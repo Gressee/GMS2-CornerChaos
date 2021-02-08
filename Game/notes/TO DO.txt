@@ -1,0 +1,14 @@
+Make that com players in Multiplayer get a skill distibution
+
+Change if instance_exists(obj_server) to if global.local_server_ == true (stilistisch besser aber nicht dringed)
+
+Fix Bug that you can not play again if you played one Round and got back to rm_menu_mp_map (dont get transfered to rm_game)
+
+
+Fix Bug that in scr_spawn_players 
+	->	check if a player is really human (bc its done withe the length of the ds list in obj_server
+		and the list doesn't get shorter if a player disconnects)
+		
+		
+Make Player collision Better if collision is 90 degrees and one player comes from schräg hinten dont turn, slow doen and boost
+	
